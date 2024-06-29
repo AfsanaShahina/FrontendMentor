@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root {
+	--white: hsl(0, 0%, 100%);
+	--blue: hsl(223, 87%, 63%);
+	--tint-blue: hsla(223, 87%, 63%, 0.8);
+	--pale-blue: hsl(223, 100%, 88%);
+	--light-red: hsl(354, 100%, 66%);
+	--gray: hsl(0, 0%, 59%);
+	--very-dark-blue: hsl(209, 33%, 12%);
+	--fs-base: 20px;
+	--fw-light: 300;
+	--fw-semi-bold: 600;
+	--fw-bold: 700;
+}
+.content-container{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.main-image{
+    height: 20rem;
+    width: 30rem;
+    margin-top: 4rem;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.inputfield{
+    padding: 15px;
+    width: 23rem;
+    height: 1rem;
+    border-radius: 24px;
+}
+.fieldclass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    padding: 20px 20px;
+    width: 11rem;
+    height: 30px;
+    color: white;
+    background-color: rgb(87, 87, 233);
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-left: 5px;
+   border-radius: 24px;
+   border: none;
+   cursor: pointer;
+  
+}
+.errormsg{
+    color: red;
+    display: block;
+    margin-top: 3px;
+    margin-right: 22rem;
+}
+.hidden{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .btn {
+        
+    }
+}
