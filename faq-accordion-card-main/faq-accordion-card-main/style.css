@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.main-container{
+    background: linear-gradient(rgb(189, 126, 237), rgb(128, 60, 201));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.content-container {
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    padding-left: 0;
+    border-radius: 20px;
+    overflow: visible
+  }
+  
+  .imageclass {
+    height: 100%;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .Image1 {
+    position: absolute;
+    left: -80px; /* Moves Image 1 to the left outside the container */
+    top: 0;
+   
+  }
+  
+  .Image2 {
+    position: absolute;
+    left: -90px; /* Moves Image 2 to the left outside the container */
+    top: 150px; /* Adjust top value as needed */
+    
+     /* Ensures Image 2 is visible outside the container */
+  }
+.faqclass{
+    height: 500px;
+    width: 300px;
+    padding: 30px;
+
+}
+.questiondiv{
+    font-size: 15px;
+    display: flex;
+    margin: 0;   
+    align-items: center;
+    justify-content: space-between;   
+}
+.faqclass{
+    height: fit-content;
+}
+.question{
+    
+}
+.titleclass{
+    margin-top: 0;
+}
+.hidden{
+    display: none;
+}
+.arrowsection{
+    position: sticky;
+}
