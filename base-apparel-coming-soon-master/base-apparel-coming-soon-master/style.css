@@ -1,0 +1,96 @@
+
+body{
+    margin:0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+}
+.main-container{
+    height: 500px;
+    width: 900px;
+    background-color:rgb(236, 235, 233);
+    display: flex;
+   
+   
+}
+.hero-image{
+    height: 100px;
+    width: 100px;
+}
+
+.hero-image{
+    width: 350px;
+    height: 500px;
+}
+.logocontent{
+    display: flex;
+}
+.text-container{
+    padding: 60px;
+    padding-left: 100px;
+}
+.title{
+    margin-top: 50px;
+}
+.title p{
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin: 0;
+}
+.were{
+    color: rgb(234, 155, 126);
+}
+.main-para{
+    font-family:cursive;
+    color:rgb(234, 155, 126);
+    font-size: small;
+}
+.email{
+    height: 20px;
+    width: 250px;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 30px;
+    border-color: rgb(234, 155, 126) ;
+    position: absolute;
+    margin-top: 20px;
+    z-index: 1;
+    
+    
+}
+.arrowmark{
+    background-color: rgb(234, 155, 126);
+    margin: 20px, 20px;
+    padding: 13px;
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+    position:absolute;
+    margin-left: 200px;
+    cursor: pointer;
+    box-shadow: -2px 0px 29px 0px rgba(234, 136, 61, 0.75);
+    -webkit-box-shadow: -2px 0px 29px 0px rgba(234, 139, 66, 0.75);
+    z-index: 2;
+    
+}
+.bottom{
+    position: relative;
+}
+.erroricon{
+    margin-top: 27px; 
+    position: absolute;
+    z-index: 5;
+    margin-left: 170px;
+}
+
+
+.hidden{
+    display: none;
+}
