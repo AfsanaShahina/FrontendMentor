@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+.main-container{
+    height: 550px;
+    width: 800px;
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
+.imageicon{
+    max-height: 100%;
+    width: auto; /* Ensures the width adjusts proportionally to the height */
+    max-width: 100%;
+}
+.content-container{
+    width: 50%;
+    height: 550px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image-container{
+    padding: 10px;
+}
+.heading{
+    margin-top: 50px;
+    font-size: 50px;
+    margin: 0;
+}
+.inputcontainer{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: gainsboro;
+    border-style: solid;
+}
+.btn{
+    color: white;
+    padding: 13px;
+    background-color: rgb(9, 9, 47);
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.points{
+    margin-bottom: 0;
+}
+.successicon{
+    margin-left: 5px;
+}
+.bulletpoints{
+    margin-bottom: 10px;
+}
+.inputlabel{
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: orangered;
+    box-shadow: 2px 3px 18px 2px rgba(245,24,36,0.75);
+-webkit-box-shadow: 2px 3px 18px 2px rgba(245,24,36,0.75);
+-moz-box-shadow: 2px 3px 18px 2px rgba(245,24,36,0.75);
+
+}
+.success-container{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.dismissmsg{
+    color: white;
+    padding: 13px;
+    background-color: rgb(9, 9, 47);
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+  
+}
+.dismissmsg:hover{
+    background-color: orangered;
+    box-shadow: 2px 3px 18px 2px rgba(245,24,36,0.75);
+-webkit-box-shadow: 2px 3px 18px 2px rgba(245,24,36,0.75);
+-moz-box-shadow: 2px 3px 18px 2px rgba(245,24,36,0.75);
+
+}
+.success-container p{
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+.hidden{
+    display: none;
+}
